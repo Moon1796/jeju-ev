@@ -235,7 +235,6 @@ if(ONESIGNAL_APP_ID && !ONESIGNAL_APP_ID.startsWith("REPLACE_")){
   OneSignalDeferred.push(async function(OneSignal){
     await OneSignal.init({
       appId: ONESIGNAL_APP_ID,
-      serviceWorkerParam: { scope: "/" },
       serviceWorkerPath: "sw.js",
     });
     oneSignalReady = true;
