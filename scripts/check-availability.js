@@ -25,12 +25,23 @@ function xmlTag(block, tag) {
 }
 
 async function fetchStations() {
+  // GitHub Secret에 Encoding 값이 들어왔든 Decoding 값이 들어왔든 안전하게 처리:
+  // 이미 인코딩된 값이면 한 번 풀어준 뒤, 요청 시 다시 정확히 인코딩합니다.
+  let rawKey = EVCHARGER_KEY;
+  try { rawKey = decodeURIComponent(EVCHARGER_KEY); } catch (e) { /* 디코딩 불가하면 원본 그대로 사용 */ }
+
   const url =
     `https://apis.data.go.kr/B552584/EvCharger/getChargerInfo` +
-    `?ServiceKey=${encodeURIComponent(EVCHARGER_KEY)}&pageNo=1&numOfRows=999&zcode=${JEJU_ZCODE}`;
+    `?ServiceKey=${encodeURIComponent(rawKey)}&pageNo=1&numOfRows=999&zcode=${JEJU_ZCODE}`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`API 응답 오류: HTTP ${res.status}`);
   const text = await res.text();
+
+  const codeMatch = text.match(/<resultCode>([^<]*)<\/resultCode>/);
+  if (codeMatch && codeMatch[1] !== "00") {
+    const msgMatch = text.match(/<resultMsg>([^<]*)<\/resultMsg>/);
+    throw new Error(`API 오류 (${codeMatch[1]}): ${msgMatch ? msgMatch[1] : "알 수 없는 오류"}`);
+  }
 
   const items = [...text.matchAll(/<item>([\s\S]*?)<\/item>/g)].map((m) => {
     const block = m[1];
