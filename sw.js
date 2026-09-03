@@ -1,4 +1,9 @@
-const CACHE_NAME = "jeju-ev-shell-v1";
+// OneSignal 웹 푸시가 쓰는 서비스 워커 로직을 이 파일 안에 합칩니다.
+// (별도 파일로 각자 등록하면 같은 scope("/")를 두고 서로 충돌해서
+//  알림 구독이 조용히 실패하는 경우가 있어요.)
+importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDKWorker.js");
+
+const CACHE_NAME = "jeju-ev-shell-v2";
 const SHELL_ASSETS = ["./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (event) => {
