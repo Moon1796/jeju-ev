@@ -96,6 +96,7 @@
   .btn{flex:1;text-align:center;padding:9px 0;border-radius:8px;font-size:12.5px;font-weight:700;
     border:1px solid var(--line);background:transparent;color:var(--text);cursor:pointer;}
   .btn.report{border-color:var(--bad);color:var(--bad);}
+.btn.report.active{background:var(--bad);color:#2A0E0E;border-color:var(--bad);}
   .btn.alert{border-color:var(--teal);color:var(--teal);}
   .btn.alert.active{background:var(--teal);color:#0E2423;border-color:var(--teal);}
   .btn:active{opacity:.7;}
@@ -523,7 +524,7 @@ function renderList(){
       <div class="detail">
         <div class="detail-row">${liveMode ? "공공데이터포털 실시간 값" : "데모 값(실연동 실패)"}</div>
         <div class="actions">
-          <button class="btn report" onclick="event.stopPropagation(); reportBroken('${s.id}')">고장 신고</button>
+          <button class="btn report ${reportedStations.has(s.id) ? 'active' : ''}" onclick="event.stopPropagation(); toggleReport('${s.id}')">${reportedStations.has(s.id) ? '신고 취소' : '고장 신고'}</button>
           <button class="btn alert ${alertedStations.has(s.id) ? 'active' : ''}" onclick="event.stopPropagation(); toggleAlert('${s.id}', '${s.name.replace(/'/g,"")}')">${alertedStations.has(s.id) ? '알림 해제' : '빈자리 알림'}</button>
         </div>
       </div>
@@ -553,12 +554,36 @@ function toggleCard(id){
   el.classList.toggle('open');
 }
 
-function reportBroken(id){
+const reportedStations = new Map(); // id -> {groupKey: 'fast'|'slow', from: 'available'|'charging'}
+
+function toggleReport(id){
   const st = STATIONS.find(s=>s.id===id);
-  const grp = st.fast.available > 0 || st.fast.charging > 0 ? st.fast : st.slow;
-  if(grp.available > 0) grp.available -= 1;
-  else if(grp.charging > 0){ grp.charging -= 1; grp.chargingMinutes.pop(); }
+
+  if(reportedStations.has(id)){
+    const {groupKey, from} = reportedStations.get(id);
+    const grp = st[groupKey];
+    grp.broken = Math.max(0, grp.broken - 1);
+    if(from === 'charging'){ grp.charging += 1; grp.chargingMinutes.push(0); }
+    else grp.available += 1;
+    reportedStations.delete(id);
+    aggregateStation(st);
+    markers[id].setIcon(makeIcon(st.status));
+    markers[id].setPopupContent(popupHtml(st));
+    renderSummary();
+    renderList();
+    document.getElementById('card-'+id).classList.add('open');
+    showToast('고장 신고를 취소했어요.');
+    return;
+  }
+
+  const groupKey = st.fast.available > 0 || st.fast.charging > 0 ? 'fast' : 'slow';
+  const grp = st[groupKey];
+  let from = null;
+  if(grp.available > 0){ grp.available -= 1; from = 'available'; }
+  else if(grp.charging > 0){ grp.charging -= 1; grp.chargingMinutes.pop(); from = 'charging'; }
+  else { showToast('신고할 수 있는 정상 충전기가 이 충전소에 없어요.'); return; }
   grp.broken += 1;
+  reportedStations.set(id, {groupKey, from});
   aggregateStation(st);
   markers[id].setIcon(makeIcon(st.status));
   markers[id].setPopupContent(popupHtml(st));
