@@ -580,10 +580,11 @@ async function toggleAlert(id, name){
   }
 
   try{
-    if(subscribing){
+   if(subscribing){
+      const browserPerm = (typeof Notification !== 'undefined') ? Notification.permission : '이_브라우저는_Notification_API_없음';
       const permission = await OneSignal.Notifications.requestPermission();
       if(!permission){
-        showToast('알림 권한을 허용해야 빈자리 알림을 받을 수 있어요.');
+        showToast(`알림 허용 필요 — 브라우저 상태: ${browserPerm} / OneSignal 응답: ${permission}`);
         return;
       }
       await OneSignal.User.addTag(tagKey, '1');
@@ -608,7 +609,7 @@ function showToast(msg){
   t.textContent = msg;
   t.classList.add('show');
   clearTimeout(toastTimer);
-  toastTimer = setTimeout(()=>t.classList.remove('show'), 2400);
+  toastTimer = setTimeout(()=>t.classList.remove('show'), 5000);
 }
 
 function render(){
