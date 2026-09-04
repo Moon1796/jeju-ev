@@ -234,9 +234,10 @@ if(ONESIGNAL_APP_ID && !ONESIGNAL_APP_ID.startsWith("REPLACE_")){
   window.OneSignalDeferred = window.OneSignalDeferred || [];
   OneSignalDeferred.push(async function(OneSignal){
     await OneSignal.Debug.setLogLevel('trace');
-    await OneSignal.init({
+   await OneSignal.init({
       appId: ONESIGNAL_APP_ID,
-      serviceWorkerPath: "sw.js",
+      serviceWorkerPath: "jeju-ev/sw.js",
+      serviceWorkerParam: { scope: "/jeju-ev/" },
     });
     oneSignalReady = true;
   });
