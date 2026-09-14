@@ -84,7 +84,17 @@ async function notify(stationId, stationName) {
     process.exit(1);
   }
 
-  const current = await fetchStations();
+  let current;
+  try {
+    current = await fetchStations();
+  } catch (err) {
+    // 공공데이터포털 API는 트래픽 한도 초과·일시 장애로 종종 실패합니다.
+    // 여기서 워크플로우 자체를 실패 처리하면 GitHub이 매번 저장소 소유자 이메일로
+    // "Run failed" 알림을 보내서, 진짜 빈자리 알림과 무관한 스팸 메일이 됩니다.
+    // 이번 회차는 조용히 건너뛰고 다음 주기(15분 뒤)에 다시 시도합니다.
+    console.error("충전소 정보 조회 실패, 이번 회차는 건너뜁니다:", err.message);
+    return;
+  }
 
   let prev = {};
   try {
@@ -99,7 +109,12 @@ async function notify(stationId, stationName) {
       const before = prev[statId]?.available ?? 0;
       const after = current[statId].available;
       if (before === 0 && after > 0) {
-        await notify(statId, current[statId].name);
+        try {
+          await notify(statId, current[statId].name);
+        } catch (err) {
+          // 한 충전소 알림 전송이 실패해도 나머지 충전소 처리와 스냅샷 저장은 계속 진행합니다.
+          console.error("알림 전송 중 오류(계속 진행):", statId, err.message);
+        }
       }
     }
   }
