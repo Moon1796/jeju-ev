@@ -53,7 +53,7 @@
   },
   "ME184126": {
     "name": "제주국제컨벤션센터2",
-    "available": 0
+    "available": 1
   },
   "ME184129": {
     "name": "제주노루생태공원",
@@ -221,11 +221,11 @@
   },
   "ME19B243": {
     "name": "한국중부발전㈜ 상명풍력발전소",
-    "available": 1
+    "available": 0
   },
   "ME19B244": {
     "name": "한국중부발전㈜ 제주화력본부 사택",
-    "available": 1
+    "available": 2
   },
   "ME19B245": {
     "name": "문화예술진흥원",
@@ -237,19 +237,19 @@
   },
   "ME19B247": {
     "name": "제주농업기술센터",
-    "available": 1
+    "available": 0
   },
   "ME19B248": {
     "name": "김녕119지역센터",
-    "available": 1
+    "available": 0
   },
   "ME19B249": {
     "name": "용암해수산업화지원센터 2호관",
-    "available": 1
+    "available": 0
   },
   "ME19B250": {
     "name": "제주특별자치도교육청",
-    "available": 2
+    "available": 0
   },
   "ME19B251": {
     "name": "동녘도서관",
@@ -261,11 +261,11 @@
   },
   "ME19B404": {
     "name": "월드컵경기장",
-    "available": 4
+    "available": 2
   },
   "ME19B405": {
     "name": "제주4.3평화재단 공원",
-    "available": 3
+    "available": 1
   },
   "ME19B406": {
     "name": "제주국제대학교",
@@ -281,7 +281,7 @@
   },
   "ME19D128": {
     "name": "용두암 공영주차장",
-    "available": 1
+    "available": 0
   },
   "ME19Y240": {
     "name": "제주시 민속오일시장 주차타워",
@@ -417,7 +417,7 @@
   },
   "ME21B251": {
     "name": "대정청소년수련관",
-    "available": 0
+    "available": 1
   },
   "ME21B252": {
     "name": "효돈동주민센터 앞 주차장",
@@ -481,7 +481,7 @@
   },
   "ME21D066": {
     "name": "제주월드컵경기장",
-    "available": 0
+    "available": 1
   },
   "ME21D067": {
     "name": "무릉문화의집",
@@ -497,7 +497,7 @@
   },
   "ME21D070": {
     "name": "서귀포예술의전당",
-    "available": 1
+    "available": 0
   },
   "ME21D071": {
     "name": "동부소방서",
@@ -505,7 +505,7 @@
   },
   "ME21D072": {
     "name": "서귀포농업기술센터",
-    "available": 0
+    "available": 1
   },
   "ME21D073": {
     "name": "모구리야영장",
@@ -557,7 +557,7 @@
   },
   "ME21D085": {
     "name": "한라도서관",
-    "available": 1
+    "available": 0
   },
   "ME21D086": {
     "name": "거문오름",
@@ -685,15 +685,15 @@
   },
   "ME22A611": {
     "name": "서귀포향토오일시장",
-    "available": 4
+    "available": 0
   },
   "ME22B336": {
     "name": "남원중앙동공영주차장",
-    "available": 1
+    "available": 0
   },
   "ME22C1F6": {
     "name": "남원중앙동공영주차장",
-    "available": 1
+    "available": 0
   },
   "ME22C1F7": {
     "name": "제주남원동부 새마을금고주유소",
@@ -709,11 +709,11 @@
   },
   "ME22C1G0": {
     "name": "노형2지구 공영주차장",
-    "available": 1
+    "available": 0
   },
   "ME22C1G1": {
     "name": "삼도일동 공영주차장",
-    "available": 1
+    "available": 0
   },
   "ME22C1G2": {
     "name": "외도구획정리지구1 공영주차장",
@@ -725,7 +725,7 @@
   },
   "ME22C285": {
     "name": "서귀포향토오일시장",
-    "available": 1
+    "available": 0
   },
   "ME22C286": {
     "name": "제주서부경찰서",
@@ -733,11 +733,11 @@
   },
   "ME22C287": {
     "name": "제주해안경비단",
-    "available": 2
+    "available": 1
   },
   "ME22C305": {
     "name": "정부제주지방합동청사 주차장",
-    "available": 1
+    "available": 0
   },
   "ME22D155": {
     "name": "세화리 공영주차장",
@@ -829,7 +829,7 @@
   },
   "AH000117": {
     "name": "제주 도련2차영도갤럭시타운",
-    "available": 10
+    "available": 11
   },
   "AH000118": {
     "name": "제주 세화리 2924 카페",
@@ -901,7 +901,7 @@
   },
   "BE241063": {
     "name": "워터 버거킹 제주애월DT",
-    "available": 5
+    "available": 6
   },
   "BE250111": {
     "name": "워터 제주 애월읍사무소",
@@ -1057,15 +1057,15 @@
   },
   "BT000054": {
     "name": "JDC 리슈빌",
-    "available": 11
+    "available": 13
   },
   "BT000056": {
     "name": "JDC 행복주택",
-    "available": 11
+    "available": 12
   },
   "BT000061": {
     "name": "한림항공",
-    "available": 0
+    "available": 1
   },
   "BT000064": {
     "name": "성미가든",
@@ -1545,7 +1545,7 @@
   },
   "CV000277": {
     "name": "모닝시티 오피스텔",
-    "available": 1
+    "available": 0
   },
   "CV000304": {
     "name": "더베이리조트",
@@ -1781,11 +1781,11 @@
   },
   "CV001363": {
     "name": "아뜨리움 화북",
-    "available": 0
+    "available": 1
   },
   "CV001479": {
     "name": "로봇스퀘어",
-    "available": 4
+    "available": 2
   },
   "CV001521": {
     "name": "제주경찰청 신청사",
