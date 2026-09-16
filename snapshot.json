@@ -181,7 +181,7 @@
   },
   "ME18A404": {
     "name": "신화역사공원 조성사업",
-    "available": 1
+    "available": 2
   },
   "ME19B169": {
     "name": "서귀포보건소",
@@ -213,15 +213,15 @@
   },
   "ME19B241": {
     "name": "강정크루즈터미널",
-    "available": 1
+    "available": 2
   },
   "ME19B242": {
     "name": "아시아CGI애니메이션센터",
-    "available": 1
+    "available": 2
   },
   "ME19B243": {
     "name": "한국중부발전㈜ 상명풍력발전소",
-    "available": 1
+    "available": 0
   },
   "ME19B244": {
     "name": "한국중부발전㈜ 제주화력본부 사택",
@@ -245,31 +245,31 @@
   },
   "ME19B249": {
     "name": "용암해수산업화지원센터 2호관",
-    "available": 0
+    "available": 2
   },
   "ME19B250": {
     "name": "제주특별자치도교육청",
-    "available": 0
+    "available": 2
   },
   "ME19B251": {
     "name": "동녘도서관",
-    "available": 1
+    "available": 2
   },
   "ME19B253": {
     "name": "비자림",
-    "available": 1
+    "available": 2
   },
   "ME19B404": {
     "name": "월드컵경기장",
-    "available": 1
+    "available": 4
   },
   "ME19B405": {
     "name": "제주4.3평화재단 공원",
-    "available": 2
+    "available": 4
   },
   "ME19B406": {
     "name": "제주국제대학교",
-    "available": 2
+    "available": 4
   },
   "ME19D126": {
     "name": "웅전공영주차장",
@@ -413,7 +413,7 @@
   },
   "ME21B250": {
     "name": "대정읍 노외4주차장",
-    "available": 2
+    "available": 1
   },
   "ME21B251": {
     "name": "대정청소년수련관",
@@ -425,11 +425,11 @@
   },
   "ME21B256": {
     "name": "교래자연휴양림",
-    "available": 1
+    "available": 0
   },
   "ME21B317": {
     "name": "제주동부경찰서",
-    "available": 1
+    "available": 2
   },
   "ME21B318": {
     "name": "서귀포경찰서",
@@ -441,7 +441,7 @@
   },
   "ME21B410": {
     "name": "신화역사공원 J지구 공영주차장",
-    "available": 2
+    "available": 4
   },
   "ME21D057": {
     "name": "쇠소깍 공영주차장",
@@ -541,7 +541,7 @@
   },
   "ME21D081": {
     "name": "제주시청",
-    "available": 1
+    "available": 0
   },
   "ME21D082": {
     "name": "제주도청 제2청사",
@@ -693,7 +693,7 @@
   },
   "ME22C1F6": {
     "name": "남원중앙동공영주차장",
-    "available": 0
+    "available": 1
   },
   "ME22C1F7": {
     "name": "제주남원동부 새마을금고주유소",
@@ -701,7 +701,7 @@
   },
   "ME22C1F8": {
     "name": "제주해안경비단 1경비대",
-    "available": 0
+    "available": 1
   },
   "ME22C1F9": {
     "name": "동명아파트 북측 공영주차장",
@@ -725,19 +725,19 @@
   },
   "ME22C285": {
     "name": "서귀포향토오일시장",
-    "available": 1
+    "available": 2
   },
   "ME22C286": {
     "name": "제주서부경찰서",
-    "available": 2
+    "available": 1
   },
   "ME22C287": {
     "name": "제주해안경비단",
-    "available": 1
+    "available": 2
   },
   "ME22C305": {
     "name": "정부제주지방합동청사 주차장",
-    "available": 1
+    "available": 2
   },
   "ME22D155": {
     "name": "세화리 공영주차장",
@@ -773,7 +773,7 @@
   },
   "ME22D235": {
     "name": "한샘어린이집 맞은편 공영주차장",
-    "available": 2
+    "available": 1
   },
   "ME22D401": {
     "name": "제주종합경기장 실내수영장",
@@ -1057,11 +1057,11 @@
   },
   "BT000054": {
     "name": "JDC 리슈빌",
-    "available": 11
+    "available": 13
   },
   "BT000056": {
     "name": "JDC 행복주택",
-    "available": 11
+    "available": 12
   },
   "BT000061": {
     "name": "한림항공",
@@ -1509,7 +1509,7 @@
   },
   "CV000140": {
     "name": "제이앤클로이펜션",
-    "available": 1
+    "available": 2
   },
   "CV000143": {
     "name": "끌림365",
@@ -1661,7 +1661,7 @@
   },
   "CV000901": {
     "name": "포르쉐 데스티네이션 제주 클럽나인브릿지 스타빌",
-    "available": 7
+    "available": 6
   },
   "CV000935": {
     "name": "허브동산",
@@ -1781,7 +1781,7 @@
   },
   "CV001363": {
     "name": "아뜨리움 화북",
-    "available": 0
+    "available": 2
   },
   "CV001479": {
     "name": "로봇스퀘어",
@@ -1805,7 +1805,7 @@
   },
   "CV001599": {
     "name": "목장카페 밭디",
-    "available": 3
+    "available": 4
   },
   "CV001630": {
     "name": "천우모빌리티 제주",
@@ -1893,7 +1893,7 @@
   },
   "CV002902": {
     "name": "채비 제주 초급속 충전소(완속만비공용)",
-    "available": 47
+    "available": 49
   },
   "CV004004": {
     "name": "홈플러스 서귀포점",
@@ -1917,7 +1917,7 @@
   },
   "CV004528": {
     "name": "포르쉐 센터 도이치아우토 제주",
-    "available": 1
+    "available": 2
   },
   "CV004536": {
     "name": "제주 다담가",
@@ -1933,7 +1933,7 @@
   },
   "CV004582": {
     "name": "썬렌터카 주차장",
-    "available": 2
+    "available": 0
   },
   "CV004597": {
     "name": "서홍공영주차장",
