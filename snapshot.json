@@ -141,7 +141,7 @@
   },
   "ME18A278": {
     "name": "한국교통안전공단제주자동차검사소",
-    "available": 1
+    "available": 2
   },
   "ME18A279": {
     "name": "제주도립미술관",
@@ -181,7 +181,7 @@
   },
   "ME18A404": {
     "name": "신화역사공원 조성사업",
-    "available": 1
+    "available": 2
   },
   "ME19B169": {
     "name": "서귀포보건소",
@@ -209,7 +209,7 @@
   },
   "ME19B240": {
     "name": "서귀포항 해운항만과 사무실",
-    "available": 2
+    "available": 0
   },
   "ME19B241": {
     "name": "강정크루즈터미널",
@@ -225,7 +225,7 @@
   },
   "ME19B244": {
     "name": "한국중부발전㈜ 제주화력본부 사택",
-    "available": 0
+    "available": 2
   },
   "ME19B245": {
     "name": "문화예술진흥원",
@@ -245,11 +245,11 @@
   },
   "ME19B249": {
     "name": "용암해수산업화지원센터 2호관",
-    "available": 0
+    "available": 2
   },
   "ME19B250": {
     "name": "제주특별자치도교육청",
-    "available": 0
+    "available": 2
   },
   "ME19B251": {
     "name": "동녘도서관",
@@ -257,19 +257,19 @@
   },
   "ME19B253": {
     "name": "비자림",
-    "available": 0
+    "available": 2
   },
   "ME19B404": {
     "name": "월드컵경기장",
-    "available": 4
+    "available": 0
   },
   "ME19B405": {
     "name": "제주4.3평화재단 공원",
-    "available": 1
+    "available": 3
   },
   "ME19B406": {
     "name": "제주국제대학교",
-    "available": 1
+    "available": 3
   },
   "ME19D126": {
     "name": "웅전공영주차장",
@@ -349,7 +349,7 @@
   },
   "ME20B2a5": {
     "name": "한국산업인력공단 제주지사",
-    "available": 1
+    "available": 2
   },
   "ME20B2a6": {
     "name": "서부하수처리장",
@@ -361,7 +361,7 @@
   },
   "ME20B2a8": {
     "name": "건강쉼터",
-    "available": 1
+    "available": 2
   },
   "ME20B2a9": {
     "name": "금능해수욕장 주차장",
@@ -401,23 +401,23 @@
   },
   "ME21B1C9": {
     "name": "대륜 공영노외2주차장",
-    "available": 1
+    "available": 0
   },
   "ME21B1D0": {
     "name": "남원 공영노외1주차장",
-    "available": 1
+    "available": 0
   },
   "ME21B1E8": {
     "name": "중문119센터",
-    "available": 1
+    "available": 0
   },
   "ME21B250": {
     "name": "대정읍 노외4주차장",
-    "available": 2
+    "available": 0
   },
   "ME21B251": {
     "name": "대정청소년수련관",
-    "available": 2
+    "available": 1
   },
   "ME21B252": {
     "name": "효돈동주민센터 앞 주차장",
@@ -429,7 +429,7 @@
   },
   "ME21B317": {
     "name": "제주동부경찰서",
-    "available": 2
+    "available": 3
   },
   "ME21B318": {
     "name": "서귀포경찰서",
@@ -465,7 +465,7 @@
   },
   "ME21D062": {
     "name": "대정하모3공영주차장",
-    "available": 1
+    "available": 0
   },
   "ME21D063": {
     "name": "제주영어교육도시",
@@ -497,7 +497,7 @@
   },
   "ME21D070": {
     "name": "서귀포예술의전당",
-    "available": 1
+    "available": 0
   },
   "ME21D071": {
     "name": "동부소방서",
@@ -593,7 +593,7 @@
   },
   "ME21D095": {
     "name": "외도동 주민센터",
-    "available": 1
+    "available": 0
   },
   "ME21D096": {
     "name": "건입동 주민센터",
@@ -685,11 +685,11 @@
   },
   "ME22A611": {
     "name": "서귀포향토오일시장",
-    "available": 4
+    "available": 0
   },
   "ME22B336": {
     "name": "남원중앙동공영주차장",
-    "available": 1
+    "available": 0
   },
   "ME22C1F6": {
     "name": "남원중앙동공영주차장",
@@ -725,11 +725,11 @@
   },
   "ME22C285": {
     "name": "서귀포향토오일시장",
-    "available": 1
+    "available": 2
   },
   "ME22C286": {
     "name": "제주서부경찰서",
-    "available": 1
+    "available": 2
   },
   "ME22C287": {
     "name": "제주해안경비단",
@@ -1581,7 +1581,7 @@
   },
   "CV000371": {
     "name": "아이고운힐에이",
-    "available": 1
+    "available": 2
   },
   "CV000417": {
     "name": "(유)다올-중문썬라이즈",
@@ -1597,7 +1597,7 @@
   },
   "CV000521": {
     "name": "민형파인즈",
-    "available": 1
+    "available": 2
   },
   "CV000635": {
     "name": "애월연어",
@@ -1617,7 +1617,7 @@
   },
   "CV000664": {
     "name": "제주해양수산관리단",
-    "available": 1
+    "available": 2
   },
   "CV000672": {
     "name": "여울목펜션",
@@ -1757,7 +1757,7 @@
   },
   "CV001326": {
     "name": "남주아파트",
-    "available": 1
+    "available": 0
   },
   "CV001327": {
     "name": "비슬휴림",
@@ -1789,7 +1789,7 @@
   },
   "CV001521": {
     "name": "제주경찰청 신청사",
-    "available": 9
+    "available": 10
   },
   "CV001571": {
     "name": "한국도로교통공단 제주지부",
@@ -1817,7 +1817,7 @@
   },
   "CV001662": {
     "name": "엘림피렌체3차아파트",
-    "available": 1
+    "available": 2
   },
   "CV001685": {
     "name": "산방산호텔",
