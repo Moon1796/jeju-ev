@@ -61,7 +61,7 @@
   },
   "ME184130": {
     "name": "별빛누리공원",
-    "available": 0
+    "available": 1
   },
   "ME184131": {
     "name": "조천체육관",
@@ -81,7 +81,7 @@
   },
   "ME18A176": {
     "name": "봉개동공영주차장",
-    "available": 0
+    "available": 1
   },
   "ME18A177": {
     "name": "북촌 너븐숭이4.3 기념관",
@@ -141,7 +141,7 @@
   },
   "ME18A278": {
     "name": "한국교통안전공단제주자동차검사소",
-    "available": 1
+    "available": 2
   },
   "ME18A279": {
     "name": "제주도립미술관",
@@ -149,7 +149,7 @@
   },
   "ME18A280": {
     "name": "조천읍사무소",
-    "available": 2
+    "available": 1
   },
   "ME18A281": {
     "name": "일출랜드",
@@ -233,7 +233,7 @@
   },
   "ME19B246": {
     "name": "제주특별자치도의회",
-    "available": 2
+    "available": 1
   },
   "ME19B247": {
     "name": "제주농업기술센터",
@@ -421,27 +421,27 @@
   },
   "ME21B252": {
     "name": "효돈동주민센터 앞 주차장",
-    "available": 0
+    "available": 2
   },
   "ME21B256": {
     "name": "교래자연휴양림",
-    "available": 2
+    "available": 0
   },
   "ME21B317": {
     "name": "제주동부경찰서",
-    "available": 2
+    "available": 1
   },
   "ME21B318": {
     "name": "서귀포경찰서",
-    "available": 3
+    "available": 1
   },
   "ME21B409": {
     "name": "돌문화공원관리소",
-    "available": 1
+    "available": 3
   },
   "ME21B410": {
     "name": "신화역사공원 J지구 공영주차장",
-    "available": 3
+    "available": 4
   },
   "ME21D057": {
     "name": "쇠소깍 공영주차장",
@@ -541,7 +541,7 @@
   },
   "ME21D081": {
     "name": "제주시청",
-    "available": 0
+    "available": 1
   },
   "ME21D082": {
     "name": "제주도청 제2청사",
@@ -593,7 +593,7 @@
   },
   "ME21D095": {
     "name": "외도동 주민센터",
-    "available": 1
+    "available": 0
   },
   "ME21D096": {
     "name": "건입동 주민센터",
@@ -685,7 +685,7 @@
   },
   "ME22A611": {
     "name": "서귀포향토오일시장",
-    "available": 3
+    "available": 4
   },
   "ME22B336": {
     "name": "남원중앙동공영주차장",
@@ -693,15 +693,15 @@
   },
   "ME22C1F6": {
     "name": "남원중앙동공영주차장",
-    "available": 0
+    "available": 1
   },
   "ME22C1F7": {
     "name": "제주남원동부 새마을금고주유소",
-    "available": 1
+    "available": 0
   },
   "ME22C1F8": {
     "name": "제주해안경비단 1경비대",
-    "available": 0
+    "available": 1
   },
   "ME22C1F9": {
     "name": "동명아파트 북측 공영주차장",
@@ -709,11 +709,11 @@
   },
   "ME22C1G0": {
     "name": "노형2지구 공영주차장",
-    "available": 0
+    "available": 1
   },
   "ME22C1G1": {
     "name": "삼도일동 공영주차장",
-    "available": 0
+    "available": 1
   },
   "ME22C1G2": {
     "name": "외도구획정리지구1 공영주차장",
@@ -725,7 +725,7 @@
   },
   "ME22C285": {
     "name": "서귀포향토오일시장",
-    "available": 2
+    "available": 1
   },
   "ME22C286": {
     "name": "제주서부경찰서",
@@ -777,7 +777,7 @@
   },
   "ME22D401": {
     "name": "제주종합경기장 실내수영장",
-    "available": 4
+    "available": 3
   },
   "ME25C181": {
     "name": "제일강정 푸른꿈공원",
@@ -829,7 +829,7 @@
   },
   "AH000117": {
     "name": "제주 도련2차영도갤럭시타운",
-    "available": 9
+    "available": 10
   },
   "AH000118": {
     "name": "제주 세화리 2924 카페",
@@ -1061,7 +1061,7 @@
   },
   "BT000056": {
     "name": "JDC 행복주택",
-    "available": 10
+    "available": 11
   },
   "BT000061": {
     "name": "한림항공",
@@ -1569,7 +1569,7 @@
   },
   "CV000344": {
     "name": "포르쉐 데스티네이션 제주항공우주호텔",
-    "available": 5
+    "available": 6
   },
   "CV000353": {
     "name": "(유)다올-썬라이즈호텔 섭지코지점",
@@ -1589,7 +1589,7 @@
   },
   "CV000424": {
     "name": "노형리츠하임 테라스파크",
-    "available": 4
+    "available": 3
   },
   "CV000451": {
     "name": "라메르빌",
@@ -1677,7 +1677,7 @@
   },
   "CV000969": {
     "name": "이도노브힐 3차",
-    "available": 1
+    "available": 0
   },
   "CV000999": {
     "name": "화이트디어 해안1차 야외주차장",
@@ -1757,7 +1757,7 @@
   },
   "CV001326": {
     "name": "남주아파트",
-    "available": 1
+    "available": 0
   },
   "CV001327": {
     "name": "비슬휴림",
@@ -1777,11 +1777,11 @@
   },
   "CV001348": {
     "name": "포시즌프렌즈스크린 용담오라점",
-    "available": 1
+    "available": 2
   },
   "CV001363": {
     "name": "아뜨리움 화북",
-    "available": 1
+    "available": 2
   },
   "CV001479": {
     "name": "로봇스퀘어",
@@ -1817,7 +1817,7 @@
   },
   "CV001662": {
     "name": "엘림피렌체3차아파트",
-    "available": 1
+    "available": 2
   },
   "CV001685": {
     "name": "산방산호텔",
@@ -1877,7 +1877,7 @@
   },
   "CV002721": {
     "name": "노형탐라빌아파트",
-    "available": 2
+    "available": 1
   },
   "CV002754": {
     "name": "상지에버그린빌아파트",
