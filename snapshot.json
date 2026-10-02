@@ -5,7 +5,7 @@
   },
   "ME174050": {
     "name": "중문 관광단지",
-    "available": 5
+    "available": 4
   },
   "ME174061": {
     "name": "표선 의례회관 앞 공영주차장",
@@ -61,7 +61,7 @@
   },
   "ME184130": {
     "name": "별빛누리공원",
-    "available": 1
+    "available": 0
   },
   "ME184131": {
     "name": "조천체육관",
@@ -129,7 +129,7 @@
   },
   "ME18A275": {
     "name": "중앙공영주차장",
-    "available": 2
+    "available": 1
   },
   "ME18A276": {
     "name": "선흘리 낙선동4.3 유적지",
@@ -149,7 +149,7 @@
   },
   "ME18A280": {
     "name": "조천읍사무소",
-    "available": 1
+    "available": 2
   },
   "ME18A281": {
     "name": "일출랜드",
@@ -205,7 +205,7 @@
   },
   "ME19B174": {
     "name": "용담1동주민센터",
-    "available": 2
+    "available": 1
   },
   "ME19B240": {
     "name": "서귀포항 해운항만과 사무실",
@@ -321,7 +321,7 @@
   },
   "ME20B1e6": {
     "name": "경제통상진흥원",
-    "available": 1
+    "available": 0
   },
   "ME20B1e7": {
     "name": "한림항 주차장",
@@ -421,27 +421,27 @@
   },
   "ME21B252": {
     "name": "효돈동주민센터 앞 주차장",
-    "available": 2
+    "available": 0
   },
   "ME21B256": {
     "name": "교래자연휴양림",
-    "available": 0
+    "available": 2
   },
   "ME21B317": {
     "name": "제주동부경찰서",
-    "available": 1
+    "available": 2
   },
   "ME21B318": {
     "name": "서귀포경찰서",
-    "available": 1
+    "available": 3
   },
   "ME21B409": {
     "name": "돌문화공원관리소",
-    "available": 3
+    "available": 1
   },
   "ME21B410": {
     "name": "신화역사공원 J지구 공영주차장",
-    "available": 4
+    "available": 3
   },
   "ME21D057": {
     "name": "쇠소깍 공영주차장",
@@ -529,7 +529,7 @@
   },
   "ME21D078": {
     "name": "안덕면사무소",
-    "available": 1
+    "available": 0
   },
   "ME21D079": {
     "name": "서귀포 자기주도학습지원센터",
@@ -541,7 +541,7 @@
   },
   "ME21D081": {
     "name": "제주시청",
-    "available": 1
+    "available": 0
   },
   "ME21D082": {
     "name": "제주도청 제2청사",
@@ -593,7 +593,7 @@
   },
   "ME21D095": {
     "name": "외도동 주민센터",
-    "available": 0
+    "available": 1
   },
   "ME21D096": {
     "name": "건입동 주민센터",
@@ -693,15 +693,15 @@
   },
   "ME22C1F6": {
     "name": "남원중앙동공영주차장",
-    "available": 1
+    "available": 0
   },
   "ME22C1F7": {
     "name": "제주남원동부 새마을금고주유소",
-    "available": 0
+    "available": 1
   },
   "ME22C1F8": {
     "name": "제주해안경비단 1경비대",
-    "available": 1
+    "available": 0
   },
   "ME22C1F9": {
     "name": "동명아파트 북측 공영주차장",
@@ -709,11 +709,11 @@
   },
   "ME22C1G0": {
     "name": "노형2지구 공영주차장",
-    "available": 1
+    "available": 0
   },
   "ME22C1G1": {
     "name": "삼도일동 공영주차장",
-    "available": 1
+    "available": 0
   },
   "ME22C1G2": {
     "name": "외도구획정리지구1 공영주차장",
@@ -721,15 +721,15 @@
   },
   "ME22C1G3": {
     "name": "아라지구2 공영주차장",
-    "available": 1
+    "available": 0
   },
   "ME22C285": {
     "name": "서귀포향토오일시장",
-    "available": 1
+    "available": 2
   },
   "ME22C286": {
     "name": "제주서부경찰서",
-    "available": 1
+    "available": 2
   },
   "ME22C287": {
     "name": "제주해안경비단",
@@ -765,7 +765,7 @@
   },
   "ME22D1H1": {
     "name": "대정파출소",
-    "available": 1
+    "available": 0
   },
   "ME22D219": {
     "name": "사라봉다목적체육관",
@@ -777,7 +777,7 @@
   },
   "ME22D401": {
     "name": "제주종합경기장 실내수영장",
-    "available": 3
+    "available": 4
   },
   "ME25C181": {
     "name": "제일강정 푸른꿈공원",
@@ -1057,11 +1057,11 @@
   },
   "BT000054": {
     "name": "JDC 리슈빌",
-    "available": 8
+    "available": 9
   },
   "BT000056": {
     "name": "JDC 행복주택",
-    "available": 11
+    "available": 12
   },
   "BT000061": {
     "name": "한림항공",
@@ -1893,7 +1893,7 @@
   },
   "CV002902": {
     "name": "채비 제주 초급속 충전소(완속만비공용)",
-    "available": 47
+    "available": 48
   },
   "CV004004": {
     "name": "홈플러스 서귀포점",
@@ -1917,7 +1917,7 @@
   },
   "CV004528": {
     "name": "포르쉐 센터 도이치아우토 제주",
-    "available": 1
+    "available": 2
   },
   "CV004536": {
     "name": "제주 다담가",
@@ -1937,11 +1937,11 @@
   },
   "CV004597": {
     "name": "서홍공영주차장",
-    "available": 13
+    "available": 14
   },
   "CV004768": {
     "name": "다담빌리지",
-    "available": 0
+    "available": 2
   },
   "CV004781": {
     "name": "특별한 렌트카",
