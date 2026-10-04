@@ -213,7 +213,7 @@
   },
   "ME19B241": {
     "name": "강정크루즈터미널",
-    "available": 2
+    "available": 0
   },
   "ME19B242": {
     "name": "아시아CGI애니메이션센터",
@@ -233,7 +233,7 @@
   },
   "ME19B246": {
     "name": "제주특별자치도의회",
-    "available": 1
+    "available": 2
   },
   "ME19B247": {
     "name": "제주농업기술센터",
@@ -241,35 +241,35 @@
   },
   "ME19B248": {
     "name": "김녕119지역센터",
-    "available": 1
+    "available": 2
   },
   "ME19B249": {
     "name": "용암해수산업화지원센터 2호관",
-    "available": 2
+    "available": 1
   },
   "ME19B250": {
     "name": "제주특별자치도교육청",
-    "available": 1
+    "available": 2
   },
   "ME19B251": {
     "name": "동녘도서관",
-    "available": 1
+    "available": 2
   },
   "ME19B253": {
     "name": "비자림",
-    "available": 1
+    "available": 2
   },
   "ME19B404": {
     "name": "월드컵경기장",
-    "available": 0
+    "available": 3
   },
   "ME19B405": {
     "name": "제주4.3평화재단 공원",
-    "available": 2
+    "available": 4
   },
   "ME19B406": {
     "name": "제주국제대학교",
-    "available": 2
+    "available": 4
   },
   "ME19D126": {
     "name": "웅전공영주차장",
@@ -413,7 +413,7 @@
   },
   "ME21B250": {
     "name": "대정읍 노외4주차장",
-    "available": 2
+    "available": 1
   },
   "ME21B251": {
     "name": "대정청소년수련관",
@@ -429,7 +429,7 @@
   },
   "ME21B317": {
     "name": "제주동부경찰서",
-    "available": 1
+    "available": 2
   },
   "ME21B318": {
     "name": "서귀포경찰서",
@@ -437,11 +437,11 @@
   },
   "ME21B409": {
     "name": "돌문화공원관리소",
-    "available": 4
+    "available": 0
   },
   "ME21B410": {
     "name": "신화역사공원 J지구 공영주차장",
-    "available": 3
+    "available": 4
   },
   "ME21D057": {
     "name": "쇠소깍 공영주차장",
@@ -557,7 +557,7 @@
   },
   "ME21D085": {
     "name": "한라도서관",
-    "available": 0
+    "available": 1
   },
   "ME21D086": {
     "name": "거문오름",
@@ -565,7 +565,7 @@
   },
   "ME21D087": {
     "name": "동백동산습지센터",
-    "available": 0
+    "available": 1
   },
   "ME21D088": {
     "name": "어리목휴게소",
@@ -617,7 +617,7 @@
   },
   "ME21D101": {
     "name": "민속자연사박물관",
-    "available": 1
+    "available": 0
   },
   "ME21D102": {
     "name": "한라생태숲",
@@ -665,7 +665,7 @@
   },
   "ME21D113": {
     "name": "신천지아파트",
-    "available": 0
+    "available": 1
   },
   "ME21X008": {
     "name": "서귀포천지연폭포",
@@ -685,7 +685,7 @@
   },
   "ME22A611": {
     "name": "서귀포향토오일시장",
-    "available": 4
+    "available": 3
   },
   "ME22B336": {
     "name": "남원중앙동공영주차장",
@@ -709,7 +709,7 @@
   },
   "ME22C1G0": {
     "name": "노형2지구 공영주차장",
-    "available": 0
+    "available": 1
   },
   "ME22C1G1": {
     "name": "삼도일동 공영주차장",
@@ -725,7 +725,7 @@
   },
   "ME22C285": {
     "name": "서귀포향토오일시장",
-    "available": 1
+    "available": 2
   },
   "ME22C286": {
     "name": "제주서부경찰서",
@@ -737,7 +737,7 @@
   },
   "ME22C305": {
     "name": "정부제주지방합동청사 주차장",
-    "available": 0
+    "available": 2
   },
   "ME22D155": {
     "name": "세화리 공영주차장",
@@ -905,7 +905,7 @@
   },
   "BE250111": {
     "name": "워터 제주 애월읍사무소",
-    "available": 2
+    "available": 1
   },
   "BE250114": {
     "name": "워터 제주 김녕리공영주차장",
@@ -1057,11 +1057,11 @@
   },
   "BT000054": {
     "name": "JDC 리슈빌",
-    "available": 10
+    "available": 12
   },
   "BT000056": {
     "name": "JDC 행복주택",
-    "available": 10
+    "available": 12
   },
   "BT000061": {
     "name": "한림항공",
@@ -1085,7 +1085,7 @@
   },
   "BT000070": {
     "name": "나모나모카페",
-    "available": 0
+    "available": 1
   },
   "BT000071": {
     "name": "모켄리조트",
@@ -1561,7 +1561,7 @@
   },
   "CV000327": {
     "name": "센트럴시티에덴아파트",
-    "available": 0
+    "available": 1
   },
   "CV000342": {
     "name": "뜨레모아7차빌라",
@@ -1585,7 +1585,7 @@
   },
   "CV000417": {
     "name": "(유)다올-중문썬라이즈",
-    "available": 0
+    "available": 1
   },
   "CV000424": {
     "name": "노형리츠하임 테라스파크",
@@ -1605,7 +1605,7 @@
   },
   "CV000636": {
     "name": "제주앤성산아파트",
-    "available": 1
+    "available": 2
   },
   "CV000653": {
     "name": "마이카",
@@ -1617,7 +1617,7 @@
   },
   "CV000664": {
     "name": "제주해양수산관리단",
-    "available": 3
+    "available": 2
   },
   "CV000672": {
     "name": "여울목펜션",
@@ -1757,7 +1757,7 @@
   },
   "CV001326": {
     "name": "남주아파트",
-    "available": 1
+    "available": 0
   },
   "CV001327": {
     "name": "비슬휴림",
@@ -1765,11 +1765,11 @@
   },
   "CV001328": {
     "name": "일우한란아파트",
-    "available": 1
+    "available": 2
   },
   "CV001329": {
     "name": "헤르지아하임7차",
-    "available": 1
+    "available": 2
   },
   "CV001332": {
     "name": "오렌지연립주택",
@@ -1781,7 +1781,7 @@
   },
   "CV001363": {
     "name": "아뜨리움 화북",
-    "available": 1
+    "available": 2
   },
   "CV001479": {
     "name": "로봇스퀘어",
@@ -1789,7 +1789,7 @@
   },
   "CV001521": {
     "name": "제주경찰청 신청사",
-    "available": 9
+    "available": 10
   },
   "CV001571": {
     "name": "한국도로교통공단 제주지부",
@@ -1817,7 +1817,7 @@
   },
   "CV001662": {
     "name": "엘림피렌체3차아파트",
-    "available": 2
+    "available": 1
   },
   "CV001685": {
     "name": "산방산호텔",
@@ -1917,7 +1917,7 @@
   },
   "CV004528": {
     "name": "포르쉐 센터 도이치아우토 제주",
-    "available": 1
+    "available": 2
   },
   "CV004536": {
     "name": "제주 다담가",
@@ -1937,7 +1937,7 @@
   },
   "CV004597": {
     "name": "서홍공영주차장",
-    "available": 13
+    "available": 14
   },
   "CV004768": {
     "name": "다담빌리지",
